@@ -1,0 +1,23 @@
+.container {
+    width: 10rem;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.language {
+    display: flex;
+}
+
+.icon2 {
+    padding-left: 2rem;
+    width: 6px;
+    height: 6px;
+}

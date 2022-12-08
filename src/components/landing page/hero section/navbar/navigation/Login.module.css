@@ -1,0 +1,10 @@
+.heading2 {
+        padding: 10px 20px;
+        background-color: red;
+        border-radius: 5px;
+        color: white;
+}
+
+.heading2:hover {
+    cursor: pointer;
+}

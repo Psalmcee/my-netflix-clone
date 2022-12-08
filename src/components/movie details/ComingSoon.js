@@ -1,0 +1,39 @@
+export default function ComingSoon(props) {
+    return (
+        <div>
+            <h1>Coming Soon</h1>
+            <div>
+                <h2>{props.movieName1}</h2>
+                <p>{props.movieDescription1}</p>
+            </div>
+            <div>
+                <h2>{props.movieName2}</h2>
+                <p>{props.movieDescription2}</p>
+            </div>
+            <div>
+                <h2>{props.movieName3}</h2>
+                <p>{props.movieDescription3}</p>
+            </div>
+            <div>
+                <h2>{props.movieName4}</h2>
+                <p>{props.movieDescription4}</p>
+            </div>
+            <div>
+                <h2>{props.movieName5}</h2>
+                <p>{props.movieDescription5}</p>
+            </div>
+            <div>
+                <h2>{props.movieName6}</h2>
+                <p>{props.movieDescription6}</p>
+            </div>
+            <div>
+                <h2>{props.movieName7}</h2>
+                <p>{props.movieDescription7}</p>
+            </div>
+            <div>
+                <h2>{props.movieName8}</h2>
+                <p>{props.movieDescription8}</p>
+            </div>
+        </div>
+    )
+}

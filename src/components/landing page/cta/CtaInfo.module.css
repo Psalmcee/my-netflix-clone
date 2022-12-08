@@ -1,0 +1,14 @@
+.data {   
+    padding: 0rem 8rem;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 922px) {
+    .data {
+        
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    background-color: #3B3B3B;
+}
+
+.heroSection {
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background-image:url("/src/components/images/netflix-hero-bg.jpg");
+}
+

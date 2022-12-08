@@ -1,0 +1,21 @@
+.container {
+    padding: 4rem ;   
+    color: grey;
+    background-color: black;
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+    
+}
+
+.cta > div {
+    width: 15rem;
+    padding: 1rem 0rem;
+}
+
+.cta:hover {
+    cursor: pointer;
+}

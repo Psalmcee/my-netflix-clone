@@ -1,0 +1,8 @@
+.display {
+    display: flex;
+    
+}
+
+.display > div {
+    margin-left: 20px;
+}
