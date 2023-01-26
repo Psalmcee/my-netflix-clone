@@ -4,7 +4,7 @@ export default function CtaInfo(props) {
     return (
         <div className={classes.data}>
             <div>
-                <h1>{props.header}</h1>
+                <h1 className={classes.header}>{props.header}</h1>
                 <p>{props.description}</p>
             </div>
             <div>

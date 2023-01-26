@@ -1,4 +1,4 @@
-import Membership from "../todo actions/Membership";
+import Membership from "../../todo actions/Membership";
 import classes from "./FAQ.module.css"
 
 
@@ -12,15 +12,7 @@ export default function FAQ() {
               <div>What is Netflix?</div>
               <div className={classes.hamburger}>+</div>
             </div>
-            <div className={classes.faqAns}>
-              Netflix is a streaming service that offers a wide variety of
-              award-winning TV shows, movies, anime, documentaries, and more on
-              thousands of internet-connected devices. <br />
-              You can watch as much as you want, whenever you want without a
-              single commercial - all for one low monthly price. There's always
-              something new to discover and new TV shows and movies are added
-              every week!
-            </div>
+            
           </div>
           <div className={classes.divContainer}>
             <div>How much does Netflix cost?</div>
@@ -76,4 +68,18 @@ export default function FAQ() {
         <div><Membership /></div>
       </div>
     );
+
+    function whatIsNetflix() {
+      return (
+        <div className={classes.divContainer}>
+              Netflix is a streaming service that offers a wide variety of
+              award-winning TV shows, movies, anime, documentaries, and more on
+              thousands of internet-connected devices. <br />
+              You can watch as much as you want, whenever you want without a
+              single commercial - all for one low monthly price. There's always
+              something new to discover and new TV shows and movies are added
+              every week!
+            </div>
+      )
+    }
 }

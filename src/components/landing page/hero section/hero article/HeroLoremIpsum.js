@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom"
-import Membership from "../../todo actions/Membership"
+import Membership from "../../../todo actions/Membership"
 import classes from "./HeroLoremIpsum.module.css"
 
 export default function HeroLoremIpsum() {

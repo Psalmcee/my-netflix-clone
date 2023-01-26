@@ -1,0 +1,11 @@
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.section > div {
+    width: 20rem;
+    padding: 1rem 2rem;
+}

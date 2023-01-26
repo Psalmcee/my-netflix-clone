@@ -6,9 +6,12 @@
     align-items: center;
 }
 
-@media (max-width: 922px) {
-    .data {
-        
+
+@media (max-width: 1422px) {
+    .data {    
         flex-direction: column;
+    }
+    .header {
+        text-align: center;
     }
 }

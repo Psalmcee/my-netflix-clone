@@ -1,0 +1,18 @@
+.movieContainer {
+    padding: auto;
+}
+
+.movieContainer > h2 {
+    color: white;
+}
+
+.movieContainer > div {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    list-style: none;
+}
+
+.movieContainer > div::-webkit-scrollbar {
+    display: none;
+}
