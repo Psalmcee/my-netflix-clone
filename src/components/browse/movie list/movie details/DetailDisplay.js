@@ -16,7 +16,7 @@ export default function DetailDisplay() {
                 <MoreLikeThis />
                 <ComingSoon />
             </section>
-            <footer><Footer /></footer>
+            <footer><Footer className={"background:blue"}/></footer>
         </div>
     )
 }

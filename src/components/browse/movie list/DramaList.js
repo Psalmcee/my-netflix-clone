@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import TvShows from "../TvShows";
-import classes from "./movieContainer.module.css"
+import classes from "./movieListContainer.module.css"
 
 var requestOptions = {
     method: 'GET',

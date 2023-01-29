@@ -20,11 +20,11 @@ export default function MovieDetail()  {
         })();
     },[])
 
-    return (
+    /* return (
         <div>
             {detail.map((item) => { 
                 return <AboutMovie key={item.id} props={item} />
     })}
         </div>
-    )
+    ) */
 }
