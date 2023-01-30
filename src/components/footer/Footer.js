@@ -1,10 +1,10 @@
 import Language from "../landing page/hero section/navbar/navigation/Language"
 import classes from "./Footer.module.css"
 
-export default function Footer() {
+export default function Footer(props) {
     return (
-        <div className={classes.container}>
-            <div>Questions? Contact us.</div>
+        <div className={`${classes.container} ${props.className}`}>
+            <h3>Questions? Contact us.</h3>
             {/* /* footer cta */ }
             <div className={classes.cta}>
                 <div>FAQ</div>
